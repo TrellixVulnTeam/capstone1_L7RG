@@ -28,6 +28,9 @@ interpreter = Interpreter.load('./models/nlu/default/chat')
 def ask_question(text):
     print(interpreter.parse(text))
 
+def covid19(text):
+    print(interpreter.parse(text))
 
 ask_question("Anh là Sơn")
 ask_question("Cô Vân")
+covid19("Covid19 là gì")

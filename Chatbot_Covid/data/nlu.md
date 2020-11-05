@@ -4,7 +4,9 @@
 - [Em](cust_sex) là [Trang](cust_name)
 - [Cô](cust_sex) [Vân](cust_name)
 - [Chú](cust_sex) [Hùng](cust_name)
-
+- [Tôi](cust_sex) [Mận](cust_name)
+- [Tôi](cust_sex) [Trang](cust_name)
+- [Tôi](cust_sex) [Tâm](cust_name)
 ## intent:greet
 - xin chào
 - chào bạn
@@ -23,6 +25,8 @@
 - có ai ở đây không?
 - alo
 - Ê
+- Này
+- Có đó không?
 ## intent:bye
 - tạm biệt
 - chào tạm biệt
@@ -30,7 +34,6 @@
 - tạm biệt em
 - tạm biệt em nhé
 - Bye
-
 ## intent:thank
 - chuẩn
 - hay
@@ -40,17 +43,16 @@
 - thanks
 - thank you
 - ok
-- cảm ơn em
-- cảm ơn em nhiều nhé
-- cảm ơn
-
+- cảm ơn bạn
+- cảm ơn ban nhiều nhé
+- cảm ơn nhiều nghe
+- ok nghe
 ## intent:ask_func_list
 - bạn có thể làm được những gì
 - bạn giúp được gì nào
 - chức năng của bạn là gì
 - bạn có thể làm được mấy chức năng
 - bạn giỏi nhất làm gì
-- bạn có tư vấn giúp mình được không
 - việc gì bạn làm được
 - kể xem bạn làm được gì
 - cho mình biết bạn làm được gì nhé
@@ -81,7 +83,7 @@
 - giúp được gì
 - mày làm được gì
 - có biết gì 
-
+- có gì mới không
 ## intent:ask_name
 - bạn tên gì
 - tên gì
@@ -110,3 +112,28 @@
 - bạn tên là gì 
 - bạn tên gì thế
 - em tên gì
+- có thể cho mình biết tên được không
+## intent:advice
+- Có thể tư ván giúp tôi được không
+- bạn có tư vấn giúp mình được không
+- cho xin ít lời khuyên được không
+- giúp chút có được không
+- tôi cần một số lời khuyên
+- tôi cần người tư vấn
+- cân lắm vài lời khuyên
+- cần gấp vài lời khuyên
+- tu ván chút được không?
+- Help me
+- help
+- cứu
+- alo, giúp chút nào
+- cho hỏi mày có tư vấn gì được cho t không?
+- tư vấn cái gì tốt tốt xem nào
+- dịch bệnh thế này tôi cần phải làm gì ?
+- làm gì để phòng chống covid
+- làm sao để không bị nhiệm bệnh
+- làm sao để cách ly
+- cách để chống dịch bệnh bây giờ 
+## intent: Covid-19
+- Covid19 là gì
+- virus covid-19 có nguy hiểm không

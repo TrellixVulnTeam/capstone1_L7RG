@@ -32,14 +32,14 @@ class action_save_cust_info(Action):
         bot_position = "SHB"
 
         if (cust_sex is  None):
-            cust_sex = "Quý khách"
+            cust_sex = "Bạn"
 
         if (cust_sex == "anh") | (cust_sex == "chị"):
            bot_position = "em"
         elif (cust_sex == "cô") | (cust_sex == "chú"):
             bot_position = "cháu"
         else:
-            cust_sex = "Quý khách"
+            cust_sex = "Bạn"
             bot_position = "SHB"
 
         if not cust_name:

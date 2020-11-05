@@ -92,6 +92,60 @@
         "text": "Chú Hùng"
       },
       {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Mận",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tôi Mận"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Trang",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tôi Trang"
+      },
+      {
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Tôi",
+            "entity": "cust_sex"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "Tâm",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "Tôi Tâm"
+      },
+      {
         "intent": "greet",
         "text": "xin chào"
       },
@@ -160,6 +214,14 @@
         "text": "Ê"
       },
       {
+        "intent": "greet",
+        "text": "Này"
+      },
+      {
+        "intent": "greet",
+        "text": "Có đó không?"
+      },
+      {
         "intent": "bye",
         "text": "tạm biệt"
       },
@@ -217,15 +279,19 @@
       },
       {
         "intent": "thank",
-        "text": "cảm ơn em"
+        "text": "cảm ơn bạn"
       },
       {
         "intent": "thank",
-        "text": "cảm ơn em nhiều nhé"
+        "text": "cảm ơn ban nhiều nhé"
       },
       {
         "intent": "thank",
-        "text": "cảm ơn"
+        "text": "cảm ơn nhiều nghe"
+      },
+      {
+        "intent": "thank",
+        "text": "ok nghe"
       },
       {
         "intent": "ask_func_list",
@@ -246,10 +312,6 @@
       {
         "intent": "ask_func_list",
         "text": "bạn giỏi nhất làm gì"
-      },
-      {
-        "intent": "ask_func_list",
-        "text": "bạn có tư vấn giúp mình được không"
       },
       {
         "intent": "ask_func_list",
@@ -372,6 +434,10 @@
         "text": "có biết gì"
       },
       {
+        "intent": "ask_func_list",
+        "text": "có gì mới không"
+      },
+      {
         "intent": "ask_name",
         "text": "bạn tên gì"
       },
@@ -478,6 +544,98 @@
       {
         "intent": "ask_name",
         "text": "em tên gì"
+      },
+      {
+        "intent": "ask_name",
+        "text": "có thể cho mình biết tên được không"
+      },
+      {
+        "intent": "advice",
+        "text": "Có thể tư ván giúp tôi được không"
+      },
+      {
+        "intent": "advice",
+        "text": "bạn có tư vấn giúp mình được không"
+      },
+      {
+        "intent": "advice",
+        "text": "cho xin ít lời khuyên được không"
+      },
+      {
+        "intent": "advice",
+        "text": "giúp chút có được không"
+      },
+      {
+        "intent": "advice",
+        "text": "tôi cần một số lời khuyên"
+      },
+      {
+        "intent": "advice",
+        "text": "tôi cần người tư vấn"
+      },
+      {
+        "intent": "advice",
+        "text": "cân lắm vài lời khuyên"
+      },
+      {
+        "intent": "advice",
+        "text": "cần gấp vài lời khuyên"
+      },
+      {
+        "intent": "advice",
+        "text": "tu ván chút được không?"
+      },
+      {
+        "intent": "advice",
+        "text": "Help me"
+      },
+      {
+        "intent": "advice",
+        "text": "help"
+      },
+      {
+        "intent": "advice",
+        "text": "cứu"
+      },
+      {
+        "intent": "advice",
+        "text": "alo, giúp chút nào"
+      },
+      {
+        "intent": "advice",
+        "text": "cho hỏi mày có tư vấn gì được cho t không?"
+      },
+      {
+        "intent": "advice",
+        "text": "tư vấn cái gì tốt tốt xem nào"
+      },
+      {
+        "intent": "advice",
+        "text": "dịch bệnh thế này tôi cần phải làm gì ?"
+      },
+      {
+        "intent": "advice",
+        "text": "làm gì để phòng chống covid"
+      },
+      {
+        "intent": "advice",
+        "text": "làm sao để không bị nhiệm bệnh"
+      },
+      {
+        "intent": "advice",
+        "text": "làm sao để cách ly"
+      },
+      {
+        "intent": "advice",
+        "text": "cách để chống dịch bệnh bây giờ"
+      },
+      {
+        "intent": "Covid-19",
+        "text": "Covid19 là gì"
+      },
+      {
+        "intent": "Covid-19",
+        "text": "virus covid-19 có nguy hiểm không"
       }
     ],
     "regex_features": [],
